@@ -1,3 +1,12 @@
 body {
-    background-image: url(../images/gem-background.jpg)
+    background-image: url(../images/gem-background.jpg);
+    font-family: American Typewriter, serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Srisakdi', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
 }

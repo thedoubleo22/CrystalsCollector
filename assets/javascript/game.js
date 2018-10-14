@@ -11,11 +11,11 @@ var lossScore = 0;
 
 //Reset Function
 function reset() {
-    targetNumber = Math.floor(Math.random() * 50) + 15;
     gemOne = Math.floor(Math.random() * 10) + 1;
     gemTwo = Math.floor(Math.random() * 10) + 1;
     gemThree = Math.floor(Math.random() * 10) + 1;
     gemFour = Math.floor(Math.random() * 10) + 1;
+    targetNumber = Math.floor(Math.random() * 50) + 15;
     totalScore = 0;
     $("#wins").text(winScore)
     $("#loss").text(lossScore)

@@ -48,10 +48,12 @@ $(document).ready(function () {
         totalScore += gemAmount
         $("#total").text(totalScore)
         if (totalScore === targetNumber) {
+            alert("You Win!")
             winScore++;
             reset();
             }
         else if (totalScore >= targetNumber) {
+            alert("You Lose!")
             lossScore++;
             reset();
         };

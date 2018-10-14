@@ -48,7 +48,7 @@ $(document).ready(function () {
         totalScore += gemAmount
         $("#total").text(totalScore)
         if (totalScore === targetNumber) {
-            winCount++;
+            winScore++;
             reset();
             }
         else if (totalScore >= targetNumber) {

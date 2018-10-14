@@ -2,11 +2,21 @@ body {
     background-image: url(../images/gem-background.jpg);
     font-family: American Typewriter, serif;
     font-size: 20px;
+    padding: 30px;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Srisakdi', cursive;
     font-size: 50px;
     font-weight: bold;
-    align-items: center;
+
+}
+
+.score{
+    float: right;
+    border: 5px solid #4282a7;
+    background-color: aliceblue;
+    padding: 35px;
+   
 }
